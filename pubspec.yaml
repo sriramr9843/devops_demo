@@ -45,7 +45,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - lib/resources/images/bits.png
+    - lib/resources/images/krce.png
     - lib/resources/images/line.png
 
   fonts:

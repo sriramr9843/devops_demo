@@ -48,7 +48,7 @@ class Strings {
   static const String HYPHEN = '-';
   static const String PLUS = '+';
   static const String ROLE_USR = 'User';
-  static const String CHN_IMG_PATH = 'lib/resources/images/bits.png';
+  static const String CHN_IMG_PATH = 'lib/resources/images/krce.png';
   static const String FOR = 'for';
   static const String BACK_SLASH = '/';
   static const String POST = 'POST';
@@ -78,7 +78,30 @@ class Strings {
   static const String HINT_LOGIN_ACCOUNT = 'Login into your Account';
 
   // Page Titles
-  static const String TITLE_DPSR_BOJ_BUY_FOOD_PRDS = 'Sell Food Products';
+  static const String TITLE_DPSR_BOJ_BUY_FOOD_PRDS = 'Food Products Name';
+  static const String TITLE_DPSR_PRODUCT_NAME = 'Food Products Name';
+  static const String TITLE_DPSR_STUDENT = 'Food Products Packing Date';
+  static const String TITLE_DPSR_SERVICES = 'Food Products Due Date';
+  static const String TITLE_DPSR_SPONSOR = 'Food Products Net Weight';
+  static const String TITLE_DPSR_END = 'Food Products Other Details';
+  static const String TITLE_STUDENT = 'STUDENT';
+  static const String TITLE_College = 'COLLEGE';
+  static const String TITLE_Subject = 'SUBJECT';
+  static const String TITLE_DPSR_REG_NO = 'STUDENT NAME';
+  static const String TITLE_DPSR_ROLL_NO = 'STUDENT ID';
+  static const String TITLE_DPSR_MARKS = 'STUDENT COLLEGE';
+  static const String TITLE_DPSR_NAME = 'STUDENT COURSE';
+  static const String TITLE_DPSR_COLL_NAME = 'COLLEGE NAME';
+  static const String TITLE_DPSR_COLL_ID = 'COLLEGE ADDRESS';
+  static const String TITLE_DPSR_COLL_PLACE = 'COLLEGE SUBJECTS';
+  static const String TITLE_DPSR_SUB_NAME = 'MOBILE COMPUTING';
+  static const String TITLE_DPSR_SUB_CODE = 'ARTIFICAL INTELLIGENCE';
+  static const String TITLE_DPSR_SUB_CREDIT = 'INERNET OF THINGS';
+  static const String TITLE_DPSR_SUB_GRADE = 'COMPUTER NETWORKS';
+  static const String TITLE_DPSR_SUB_NUMBER = 'MPMC';
+  static const String TITLE_DPSR_SUB_NUMBERS = 'THEORY OF AUTOMATA';
+  static const String TITLE_DPSR_OUR_SPONSERS = 'Sell Food Products';
+
   static const String TITLE_BOJ_VIEW_BOOK_CATERERS = 'Cooking Instructions';
   static const String TITLE_BOJ_BUY_FOOD_PRDS = 'Buy Food Products';
   static const String TITLE_MMM_MMM_REGISTRATION = 'Family Registration';
@@ -96,7 +119,6 @@ class Strings {
   static const String TITLE_DPSR_CONTACT_US = 'Contact Us';
   static const String TITLE_DPSR_OUR_SERVICES = 'Our Services';
   static const String TITLE_DPSR_BE_SPONSER = 'Be a Sponsor';
-  static const String TITLE_DPSR_OUR_SPONSERS = 'Our Sponsors';
   static const String TITLE_VID_VIEW_DOWNLOAD_DES = 'View Schools';
   static const String TITLE_VID_VIEW_DOWNLOAD_DIV = 'View Colleges';
   static const String TITLE_FORGOT_PWD_FORGOT_PWD = 'Forgot Password';

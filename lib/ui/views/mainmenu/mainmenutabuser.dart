@@ -1,3 +1,7 @@
+import 'package:devops_demo/ui/views/College.dart';
+import 'package:devops_demo/ui/views/Student.dart';
+import 'package:devops_demo/ui/views/Subject.dart';
+import 'package:devops_demo/ui/views/ice.dart';
 import 'package:flutter/material.dart';
 import 'package:devops_demo/resources/texts/strings.dart';
 import 'package:devops_demo/ui/views/aboutus.dart';
@@ -41,11 +45,11 @@ class MainMenuTabUserState extends State<MainMenuTabUser>
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9,
+      length: 13,
       child: Scaffold(
         appBar: AppBar(
           bottom: TabBar(
-            indicatorWeight: 5,
+            indicatorWeight: 6,
             isScrollable: true,
             tabs: [
               Tab(icon: Icon(Icons.family_restroom), child: Text(Strings.TITLE_MM_TB_MM)),
@@ -63,13 +67,18 @@ class MainMenuTabUserState extends State<MainMenuTabUser>
               Tab(
                   icon: Icon(Icons.contact_support),
                   child: Text(Strings.TITLE_MM_TB_DPSR)),
+              Tab(icon: Icon(Icons.ac_unit), child: Text(Strings.TITLE_BOJ_BUY_FOOD_PRDS)),
+              Tab(icon: Icon(Icons.account_circle_outlined), child: Text(Strings.TITLE_STUDENT)),
+              Tab(icon: Icon(Icons.school), child: Text(Strings.TITLE_College)),
+              Tab(icon: Icon(Icons.subject), child: Text(Strings.TITLE_Subject)),
+
             ],
           ),
           title: Center(
             child: Column(
               children: [
                 Text(
-                  Strings.DET_MM_TB_WEL + "BITS User",
+                  Strings.DET_MM_TB_WEL + "KRCE",
                 ),
                 Text(
                     greeting()
@@ -96,6 +105,11 @@ class MainMenuTabUserState extends State<MainMenuTabUser>
             Knowledge(),
             Charity(),
             AboutUs(),
+            ice(),
+            Student(),
+            College(),
+            Subject(),
+
           ],
         ),
       ),

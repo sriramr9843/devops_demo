@@ -8,6 +8,20 @@ class DetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.green,
+      body: Container(
+        color: Colors.green,
+        alignment:Alignment.bottomCenter,
+        margin: EdgeInsets.all(20),
+        padding: EdgeInsets.all(20),
+        child: ElevatedButton(
+          onPressed: () {  },
+          child: Text("Submit"),
+        ),
+
+      ),
+    );
   }
+
 }
